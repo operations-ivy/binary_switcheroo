@@ -1,4 +1,4 @@
 # binary_switcheroo
-spotify ez mode puzzle
+spotify ez puzzle
 
-run buh.py for canned answer solutions
+`$ echo <num> | python num_to_bin.py`
