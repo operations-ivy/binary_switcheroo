@@ -1,9 +1,9 @@
 from binary import *
 
-input_ints = [13, 47]
-output_bins = []
-for i in input_ints:
-    print str(i) + " in binary " + str(int_to_binary(i))
-    print str(int_to_binary(i)) + " reversed is " + reverse_string(str(int_to_binary(i)))
-    print reverse_string(str(int_to_binary(i))) + " to integer is " + str(binary_to_int(reverse_string(str(int_to_binary(i)))))
-    print ""
+def main():
+    input_ints = read_in()
+    for i in input_ints:
+        print str(binary_to_int(reverse_string(str(int_to_binary(i)))))
+
+if __name__ == '__main__':
+    main()
